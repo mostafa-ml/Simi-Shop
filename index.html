@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="charset" content="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Shop all what you need in one place">
+    <title>Simi Shop</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Google Fonts for Logo -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+    <!-- Render all elements normally -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Fontawesome CSS file -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Main CSS file -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+    <!-- Start of aside -->
+    <aside id="aside">
+        <div class="logo">
+            <i class="fa-solid fa-circle-chevron-left" onclick="hideMenu()"></i>
+            <a href="index.html"><span>Simi</span> Shop</a>
+        </div>
+        <ul>
+            <li>
+                <i class="fa-solid fa-file-lines"></i>
+                Dashboard
+            </li>
+            <li>
+                <i class="fa-solid fa-chart-pie"></i>
+                Categories
+            </li>
+            <li>
+                <i class="fa-solid fa-heart"></i>
+                Favorite
+            </li>
+            <li>
+                <i class="fa-solid fa-cart-shopping"></i>
+                Orders
+            </li>
+            <li>
+                <i class="fa-solid fa-comment-dots"></i>
+                Messages
+            </li>
+            <li>
+                <i class="fa-solid fa-arrow-trend-up"></i>
+                Top Deals
+            </li>
+            <li>
+                <i class="fa-solid fa-gear"></i>
+                Settings
+            </li>
+            <li>
+                <i class="fa-solid fa-person-through-window"></i>
+                Log Out
+            </li>
+        </ul>
+    </aside>
+    <!-- End of aside -->
+
+    <!-- Start of main -->
+    <main>
+        <header>
+            <i class="fa-solid fa-bars menu" onclick="showMenu()"></i>
+            <div class="left">
+                <span></span>
+                <form action=".">
+                    <input type="search" placeholder="Search your grocery products etc..">
+                </form>
+            </div>
+            <div class="right">
+                <i class="fa-solid fa-calendar-days"></i>
+                <i class="fa-solid fa-envelope"></i>
+                <i class="fa-solid fa-bell"></i>
+                <img src="images/user.jpg" alt="user">
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+        </header>
+        <section>
+            <!-- Start of categories -->
+            <div class="categories">
+                <div class="info">
+                    <h2 class="heading">Categories</h2>
+                    <div class="right">
+                        <div><i class="fa-solid fa-filter"></i>Filter</div>
+                        <i class="fa-solid fa-angle-left"></i>
+                        <i class="fa-solid fa-angle-right"></i>
+                    </div>
+                </div>
+                <div class="content scrollbar">
+                    <div class="box">
+                        <img src="images/fruits.png" alt="food">
+                        Fruits
+                    </div>
+                    <div class="box">
+                        <img src="images/bread.png" alt="food">
+                        Bread
+                    </div>
+                    <div class="box">
+                        <img src="images/vegetable.png" alt="food">
+                        Vegetable
+                    </div>
+                    <div class="box">
+                        <img src="images/fish.png" alt="food">
+                        Fish
+                    </div>
+                    <div class="box">
+                        <img src="images/meat.png" alt="food">
+                        Meat
+                    </div>
+                    <div class="box">
+                        <img src="images/chicken.png" alt="food">
+                        Chicken
+                    </div>
+                    <div class="box">
+                        <img src="images/drinks.png" alt="food">
+                        Drinks
+                    </div>
+                    <div class="box">
+                        <img src="images/seafood.png" alt="food">
+                        Sea Food
+                    </div>
+                    <div class="box">
+                        <img src="images/cake.png" alt="food">
+                        Cake
+                    </div>
+                    <div class="box">
+                        <img src="images/candy-bag.png" alt="food">
+                        Candies
+                    </div>
+                    <div class="box">
+                        <img src="images/ice-cream.png" alt="food">
+                        Ice cream
+                    </div>
+                    <div class="box">
+                        <img src="images/juices.png" alt="food">
+                        Juice
+                    </div>
+                    <div class="box">
+                        <img src="images/jam.png" alt="food">
+                        Jam
+                    </div>
+                </div>
+            </div>
+            <!-- End of categories Section -->
+            <!-- Start of popular Section -->
+            <div class="popular">
+                <div class="info">
+                    <h2 class="heading">Popular Products</h2>
+                    <a href="#">View More</a>
+                </div>
+                <div class="content scrollbar">
+                    <div class="box">
+                        <div class="fav" style="display: none;"><i class="fa-solid fa-heart"></i></div>
+                        <div class="image">
+                            <img src="images/strawberry.png" alt="food">
+                        </div>
+                        <h2>Strawberry</h2>
+                        <p>Lorem ipsum dolor sit amet,</p>
+                        <div class="price">
+                            <div>
+                                $20.10<span>/per kg</span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="fav" style="display: none;"><i class="fa-solid fa-heart"></i></div>
+                        <div class="image">
+                            <img src="images/orange.png" alt="food">
+                        </div>
+                        <h2>orange</h2>
+                        <p>Lorem ipsum dolor sit amet,</p>
+                        <div class="price">
+                            <div>
+                                $20.10<span>/per kg</span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="fav" style="display: none;"><i class="fa-solid fa-heart"></i></div>
+                        <div class="image">
+                            <img src="images/apples.jpg" alt="food">
+                        </div>
+                        <h2>Fresh Apple</h2>
+                        <p>Lorem ipsum dolor sit amet,</p>
+                        <div class="price">
+                            <div>
+                                $20.10<span>/per kg</span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="fav" style="display: none;"><i class="fa-solid fa-heart"></i></div>
+                        <div class="image">
+                            <img src="images/fried-chicken.png" alt="food">
+                        </div>
+                        <h2>Fried Chicken</h2>
+                        <p>Lorem ipsum dolor sit amet,</p>
+                        <div class="price">
+                            <div>
+                                $20.10<span>/per kg</span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="fav" style="display: none;"><i class="fa-solid fa-heart"></i></div>
+                        <div class="image">
+                            <img src="images/burger.png" alt="food">
+                        </div>
+                        <h2>Burger</h2>
+                        <p>Lorem ipsum dolor sit amet,</p>
+                        <div class="price">
+                            <div>
+                                $20.10<span>/per kg</span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="fav" style="display: none;"><i class="fa-solid fa-heart"></i></div>
+                        <div class="image">
+                            <img src="images/cake.jpg" alt="food">
+                        </div>
+                        <h2>Cake</h2>
+                        <p>Lorem ipsum dolor sit amet,</p>
+                        <div class="price">
+                            <div>
+                                $20.10<span>/per kg</span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="fav" style="display: none;"><i class="fa-solid fa-heart"></i></div>
+                        <div class="image">
+                            <img src="images/cola-pepsi.png" alt="food">
+                        </div>
+                        <h2>Cola & Pepsi</h2>
+                        <p>Lorem ipsum dolor sit amet,</p>
+                        <div class="price">
+                            <div>
+                                $20.10<span>/per kg</span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End of popular Section -->
+            <!-- Start of div-ui Section -->
+            <div class="div-ui">
+                <div class="left">
+                    <!-- Start of discount Section -->
+                    <div class="discount">
+                        <div class="info">
+                            <h2 class="heading">Discount Shop</h2>
+                            <a href="#">View More</a>
+                        </div>
+                        <div class="content">
+                            <div class="box">
+                                <h2>35% Discount</h2>
+                                <p>Order any food from app and get the discount</p>
+                                <button>Shop Now</button>
+                                <img src="images/s-1.jpg" alt="background-img">
+                            </div>
+                            <div class="box">
+                                <img src="images/s-2.jpg" alt="background-img">
+                                <h2>35% Discount</h2>
+                                <p>Order any food from app and get the discount</p>
+                                <button>Shop Now</button>
+                            </div>
+                            <div class="box">
+                                <img src="images/s-3.jpg" alt="background-img">
+                                <h2>35% Discount</h2>
+                                <p>Order any food from app and get the discount</p>
+                                <button>Shop Now</button>
+                            </div>
+                            <div class="box">
+                                <img src="images/s-4.jpg" alt="background-img">
+                                <h2>35% Discount</h2>
+                                <p>Order any food from app and get the discount</p>
+                                <button>Shop Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End of discount Section -->
+                </div>
+                <div class="right">
+                    <h2 class="heading">Last Order</h2>
+                    <ul>
+                        <li>
+                            <img src="images/red-saffron.jpg" alt="food">
+                            <div class="info">
+                                <h3>Red Saffron</h3>
+                                <p>Weight: 500 gm</p>
+                                <div>
+                                    <i class="fa-solid fa-minus"></i>
+                                    1
+                                    <i class="fa-solid fa-plus"></i>
+                                </div>
+                            </div>
+                            <div class="price">$120</div>
+                        </li>
+                        <li>
+                            <img src="images/fresh-apple.jpeg" alt="food">
+                            <div class="info">
+                                <h3>Fresh Apple</h3>
+                                <p>Weight: 2 kg</p>
+                                <div>
+                                    <i class="fa-solid fa-minus"></i>
+                                    1
+                                    <i class="fa-solid fa-plus"></i>
+                                </div>
+                            </div>
+                            <div class="price">$150</div>
+                        </li>
+                        <li>
+                            <img src="images/big-fish.jpg" alt="food">
+                            <div class="info">
+                                <h3>Big Fish</h3>
+                                <p>Weight: 6 kg</p>
+                                <div>
+                                    <i class="fa-solid fa-minus"></i>
+                                    1
+                                    <i class="fa-solid fa-plus"></i>
+                                </div>
+                            </div>
+                            <div class="price">$300</div>
+                        </li>
+                        <li>
+                            <img src="images/cake.jpg" alt="food">
+                            <div class="info">
+                                <h3>Sweet Cake</h3>
+                                <p>Weight: 1 kg</p>
+                                <div>
+                                    <i class="fa-solid fa-minus"></i>
+                                    1
+                                    <i class="fa-solid fa-plus"></i>
+                                </div>
+                            </div>
+                            <div class="price">$99</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- End of div-ui Section -->
+        </section>
+    </main>
+    <!-- End of main -->
+
+    <!-- JS for Toggle Menu -->
+    <script>
+        var aside = document.getElementById("aside");
+        function showMenu() {
+            aside.style = "left: 0;";
+        }
+        function hideMenu() {
+            aside.style = "left: -250px;";
+        }
+    </script>
+</body>
+
+</html>
